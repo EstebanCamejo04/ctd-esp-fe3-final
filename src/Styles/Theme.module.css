@@ -1,0 +1,48 @@
+.light{
+    background-color: rgb(255, 255, 255);
+    color: rgba(0, 0, 0);
+}
+
+.dark{
+    background-color: rgb(14, 14, 17);
+    color:  rgb(255, 255, 255);
+}
+
+.dark nav div h4,
+.dark div a h4,
+.dark nav a h1
+{
+    color:  rgb(255, 255, 255);
+}
+
+.dark nav,
+.dark footer{
+    background-color: rgb(24, 24, 27);
+}
+
+.dark footer{
+    border-top: solid rgb(39, 39, 42) 0.063rem;
+}
+
+.dark nav{
+    border-bottom: solid rgb(39, 39, 42) 0.063rem;
+}
+
+.dark h2, 
+.dark div h4 {
+    color: rgba(0, 0, 0);
+}
+
+.dark div h3{
+    color: white;
+}
+
+.dark form{
+    box-shadow: none;
+}
+
+.dark div a,
+.dark nav a{
+    background-color: transparent;
+}
+
