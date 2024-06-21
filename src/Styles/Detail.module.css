@@ -19,6 +19,7 @@
 
 .containerDetail>img {
     border-top-left-radius: 20%;
+    border-bottom-left-radius: 20%;
     height: 25rem;
     width: 21.875rem;
     z-index: 1;
@@ -29,8 +30,8 @@
     border-top: 0.094rem solid rgb(229, 228, 228);
     border-right: 0.094rem solid rgb(229, 228, 228);
     border-bottom: 0.094rem solid rgb(229, 228, 228);
-    height: 18.75rem;
-    width: 25rem;
+    height: 20.75rem;
+    width: 26rem;
     background-color: rgb(246, 246, 246);
     padding-left: 0.938rem;
     display: flex;

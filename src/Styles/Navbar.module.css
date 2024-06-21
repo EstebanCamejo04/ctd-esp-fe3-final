@@ -6,7 +6,7 @@ nav {
     align-items: center;
     box-shadow: 0 0.313rem 0.313rem rgba(0, 0, 0, 0.1);
     box-sizing: border-box;
-    background-color: rgb(192, 191, 191);
+    background-color: rgb(224, 224, 224);
     padding: 0.625rem;
     height: 3rem;
 }
@@ -16,6 +16,10 @@ nav>div {
     flex-direction: row;
     justify-content: space-between;
     width: 30%;
+}
+
+h1>span {
+    color: #DD0404;
 }
 
 nav>div>a, nav>a {
@@ -30,5 +34,6 @@ nav>div>a:hover {
 
 nav button {
     background: none;
-    border: none;
+    border-color: #ffffff;
+    background-color: #ffffff;
 }

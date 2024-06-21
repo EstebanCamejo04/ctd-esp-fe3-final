@@ -22,10 +22,9 @@ const ContextProvider = ({ children }) => {
   const url = "https://jsonplaceholder.typicode.com/users";
 
   useEffect(() => {
-    axios(url)
-      .then((response) =>
-        dispatch({ type: "GET_CHARACTERS", payload: response.data })
-      );
+    axios(url).then((response) =>
+      dispatch({ type: "GET_CHARACTERS", payload: response.data })
+    );
   }, []);
 
   useEffect(() => {

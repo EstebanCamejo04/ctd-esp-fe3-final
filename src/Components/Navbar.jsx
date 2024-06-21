@@ -10,7 +10,7 @@ const Navbar = () => {
   return (
     <nav className={navStyle}>
       <Link to="/">
-        <h1>DH Odonto</h1>
+        <h1><span>D</span>H Odonto</h1>
       </Link>
 
       <div>

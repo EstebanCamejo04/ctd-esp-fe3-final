@@ -8,6 +8,7 @@ import detailStyle from "../Styles/Detail.module.css";
 const Detail = () => {
   const { list, dentistDetail, dispatch, currentDentistIndex } =
     useContextGlobal();
+    console.log(list);
 
   const { name, email, phone, website, username } = dentistDetail;
 
