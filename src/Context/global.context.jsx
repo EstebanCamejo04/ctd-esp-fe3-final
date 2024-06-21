@@ -23,7 +23,6 @@ const ContextProvider = ({ children }) => {
 
   useEffect(() => {
     axios(url)
-      //.then(response => console.log(response.data))
       .then((response) =>
         dispatch({ type: "GET_CHARACTERS", payload: response.data })
       );
