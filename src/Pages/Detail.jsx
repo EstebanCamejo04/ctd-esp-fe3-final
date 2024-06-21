@@ -13,7 +13,6 @@ const Detail = () => {
   const { name, email, phone, website, username } = dentistDetail
 
   const { id } = useParams()
-  //console.log(id);
 
   const url = 'https://jsonplaceholder.typicode.com/users/' + id
 
