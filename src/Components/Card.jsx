@@ -8,6 +8,7 @@ const Card = ({ dentist }) => {
   const { name, username, id } = dentist;
   const { dispatch, favs } = useContextGlobal();
   //hola
+  //nos vemo
 
   const findFav = favs.find((fav) => fav.id == dentist.id);
 
