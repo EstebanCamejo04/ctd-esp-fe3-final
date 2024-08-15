@@ -7,8 +7,7 @@ import { useContextGlobal } from "../Context/global.context";
 const Card = ({ dentist }) => {
   const { name, username, id } = dentist;
   const { dispatch, favs } = useContextGlobal();
-  //hola
-  //nos vemo
+  //hello
 
   const findFav = favs.find((fav) => fav.id == dentist.id);
 
